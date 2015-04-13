@@ -268,7 +268,7 @@ button,
 input,
 select,
 textarea {
-  color: #404040;
+  color: #2D3033;
   font-family: "Questrial", sans-serif;
   font-size: 16px;
   font-size: 1rem;
@@ -321,7 +321,7 @@ address {
 }
 
 pre {
-  background: #eee;
+  background: #6C6E70;
   font-family: "Courier 10 Pitch", Courier, monospace;
   font-size: 15px;
   font-size: 0.9375rem;
@@ -344,7 +344,7 @@ abbr, acronym {
 }
 
 mark, ins {
-  background: #fff9c0;
+  background: #6C6E70;
   text-decoration: none;
 }
 
@@ -367,7 +367,7 @@ html {
 }
 
 body {
-  background: #fff;
+  background: #FFF;
   /* Fallback for when there is no custom background color defined. */
 }
 
@@ -379,7 +379,7 @@ blockquote:before, blockquote:after, q:before, q:after {
 }
 
 hr {
-  background-color: #ccc;
+  background-color: #6C6E70;
   border: 0;
   height: 1px;
   margin-bottom: 1.5em;
@@ -433,7 +433,7 @@ input[type="submit"] {
   border: 1px solid;
   border-color: #ccc #ccc #bbb;
   border-radius: 3px;
-  background: #e6e6e6;
+  background: #6C6E70;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
   color: rgba(0, 0, 0, 0.8);
   font-size: 12px;
@@ -499,13 +499,13 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-  color: royalblue;
+  color: #0C98CF;
 }
 a:visited {
-  color: purple;
+  color: #0C98CF;
 }
 a:hover, a:focus, a:active {
-  color: midnightblue;
+  color: #0AA0D9;
 }
 a:focus {
   outline: thin dotted;
@@ -607,7 +607,7 @@ a:hover, a:active {
   overflow: hidden;
 }
 .screen-reader-text:hover, .screen-reader-text:active, .screen-reader-text:focus {
-  background-color: #f1f1f1;
+  background-color: #FFF;
   border-radius: 3px;
   box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
   clip: auto !important;
@@ -845,3 +845,7 @@ object {
 /*--------------------------------------------------------------
 # Theme
 --------------------------------------------------------------*/
+.content-area {
+  width: 70%;
+  margin: 0 auto;
+}
