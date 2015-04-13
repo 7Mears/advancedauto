@@ -18,10 +18,9 @@
 
 <body <?php body_class(); ?>>
 
-<header id="masthead" class="site-header" role="banner">
+<header id="masthead" class="site-header container" role="banner">
 	<div class="site-branding">
-		<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-		<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+		<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">Advanced <span>Auto Care & Tire</span></a></h1>
 	</div><!-- .site-branding -->
 
 	<nav id="site-navigation" class="main-navigation" role="navigation">

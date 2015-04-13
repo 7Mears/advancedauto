@@ -1,4 +1,16 @@
-.content-area {
-  width: 70%;
+.content-area,
+.container {
+  width: 90%;
   margin: 0 auto;
+}
+
+.site-title {
+  a {
+    text-decoration: none;
+  }
+
+  span {
+    position: relative;
+    font-size: 0.6em;
+  }
 }
