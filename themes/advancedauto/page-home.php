@@ -18,7 +18,7 @@ get_header(); ?>
     <div class="hero-first-half">
       <div class="hero-slogan">
         <h1>Advanced</h1>
-        <h2>Auto Care <span>&</span> Tire</h2>
+        <h2>Auto Care & Tire</h2>
         <p>We have state of the art equipment, top of the line products, and highly trained technicians to meet your automotive needs.</p>
       </div>
     </div>
@@ -40,24 +40,28 @@ get_header(); ?>
   </div>
 </section>
 
-<section class="services container">
-  <h2 class="section-title">Services</h2>
-  <ul>
-    <li><h4>Brakes</h4> Take advantage of our free brake check. We will report our findings back to you and provide you with an estimate.</li>
-    <li><h4>Wheel alignment</h4> Misalignment causes premature tire wear and adversely affects the handling of your vehicle. If problems are found, we will explain what is wrong and how to correct it.</li>
-    <li><h4>Shock absorbers</h4> Worn out shock absorbers or struts can cause severe handling issues and premature tire wear.</li>
-    <li><h4>Tune­ups</h4> To maintain your vehicle's performance and efficiency, each vehicle has a regular scheduled service maintenance list. Sometimes it is as simple as an oil change, other times it's more complex, like a timing belt. We can handle it all.</li>
-    <li><h4>Mechanical services</h4> From time to time, vehicles have mechanical issues. We can handle small jobs like changing alternators to larger jobs like engine changing or rebuilding. The key to good mechanical services is good technicians and proper equipment. We have both of these covered.</li>
-    <li><h4>Exhaust</h4> We can do small jobs like changing mufflers to large jobs like a custom fit exhaust on your hot rod. We have a pipe bender on site and can make your custom exhaust just the way you like it.</li>
-    <li><h4>Windshields</h4> We do replacement windshields on all makes and models, both insurance and non-insurance work, as well as side glass replacement and stone bruise repair while you wait.</li>
-    <li><h4>Interior repair</h4> With a dedicated upholsterer, most interior repairs are a breeze. We can repair a torn panel or restitch torn seams in a jiffy.</li>
-    <li><h4>Collision repair</h4> Our collision repair team consists of five dedicated body technicians and three paint technicians. We also have two frame straightening mechanics, two dust­free downdraft paint booths, and a factory­trained Mercedes­qualified painter. Be sure to ask about our written lifetime warranty.</li>
-  </ul>
+<section class="services">
+  <div class="container">
+    <span class="section-title">Our Services</span>
+    <h3 class="section-headline">Using <strong>state of the art equipment</strong> we work on filters and fluids to changing motors, and <strong>everything in between</strong></h3>
+    <ul>
+      <li>Brakes</li>
+      <li>Wheel alignment</li>
+      <li>Shock absorbers</li>
+      <li>Tune­ups</li>
+      <li>Mechanical services</li>
+      <li>Exhaust</li>
+      <li>Windshields</li>
+      <li>Interior repair</li>
+      <li>Collision repair</li>
+    </ul>
+  </div>
 </section>
 
 <section class="products">
   <div class="container">
-    <h2 class="section-title">Products</h2>
+    <span class="section-title">Products</span>
+    <h3 class="section-headline">We work with <strong>the best</strong></h3>
     <ul>
       <li>Batteries: 6, 8, and 12 volt batteries</li>
       <li>Shocks and struts: KYB is the new industry standard. Other lines available.</li>
@@ -67,8 +71,10 @@ get_header(); ?>
   </div>
 </section>
 
-<section class="contact container">
-  <h2 class="section-title">Contact us</h2>
+<section class="contact">
+  <div class="container">
+  <span class="section-title">Contact us</span>
+  <h3 class="section-headline">Get in touch</h3>
 
 145 105th Street East
 
@@ -82,7 +88,7 @@ After hours, call Chris Hopkins: [NEED NUMBER]
 
 
 <?php echo do_shortcode( '[contact-form-7 id="22" title="Contact form 1"]' ); ?>
-
+</div>
 </section>
 
 

@@ -17,6 +17,19 @@ section {
   clear: both;
 }
 
+.services,
+.products,
+.contact {
+  padding: 100px 0;
+}
+
 .section-title {
-  text-align: center;
+  background: $color1;
+  padding: 12.5px 25px;
+}
+
+.section-headline {
+  font-weight: 100;
+  border-left: 2px solid $color1;
+  padding-left: 12.5px;
 }

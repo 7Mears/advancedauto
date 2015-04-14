@@ -264,17 +264,17 @@ input,
 select,
 textarea {
   color: #FFF;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 17.6px;
   font-size: 1.1rem;
-  font-weight: 300;
+  font-weight: 100;
   line-height: 1.5;
   letter-spacing: 1px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   clear: both;
-  font-family: "Merriweather", serif;
+  font-family: "Roboto Slab", serif;
 }
 
 h1 {
@@ -858,15 +858,28 @@ section {
   clear: both;
 }
 
+.services,
+.products,
+.contact {
+  padding: 100px 0;
+}
+
 .section-title {
-  text-align: center;
+  background: #B7A063;
+  padding: 12.5px 25px;
+}
+
+.section-headline {
+  font-weight: 100;
+  border-left: 2px solid #B7A063;
+  padding-left: 12.5px;
 }
 
 .hero {
   height: 100vh;
   background: url("./images/tirebg.jpg");
   background-size: cover;
-  background-attachment: fixed;
+  /*   background-attachment: fixed; */
 }
 
 .hero-first-half,
@@ -905,20 +918,22 @@ section {
   margin-top: 50px;
 }
 
+.services {
+  background: url("./images/tirebg2.jpg");
+  background-size: cover;
+}
 .services ul {
   list-style-type: none;
   margin: 0;
-}
-.services li {
-  width: 50%;
-  float: left;
-  padding-right: 5%;
-  padding-bottom: 50px;
 }
 
 .products {
   background: url("./images/tirebg.jpg");
   background-size: cover;
-  background-attachment: fixed;
   padding: 100px 0;
+}
+
+.contact {
+  background: url("./images/tirebg2.jpg");
+  background-size: cover;
 }
