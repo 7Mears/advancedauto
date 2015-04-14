@@ -73,22 +73,22 @@ Credibly foster equity invested total linkage after multifunctional materials. A
 
 <section class="contact">
   <div class="container">
-  <span class="section-title">Contact us</span>
-  <h3 class="section-headline">Get in touch</h3>
+    <span class="section-title">Contact us</span>
+    <h3 class="section-headline">Get in touch</h3>
+    <ul class="contact-info">
+      <li><h5>Contact info</h5></li>
+      <li>145 105th Street East</li>
+      <li>Saskatoon, SK S7N 1Z2</li>
+      <li><i class="fa fa-phone"></i> (306) ­249-­9545</li>
+      <li><i class="fa fa-print"></i> (306) ­249-­9569</li>
+      <li>After hours, call Chris Hopkins: [NEED NUMBER]</li>
+    </ul>
+    <div class="contact-form">
+      <?php echo do_shortcode( '[contact-form-7 id="22" title="Contact form 1"]' ); ?>
+    </div>
 
-145 105th Street East
-
-Saskatoon, SK S7N 1Z2
-
-P: 306­249­9545
-
-F: 306­249­9569
-
-After hours, call Chris Hopkins: [NEED NUMBER]
-
-
-<?php echo do_shortcode( '[contact-form-7 id="22" title="Contact form 1"]' ); ?>
-</div>
+    <div class="clear"></div>
+  </div>
 </section>
 
 

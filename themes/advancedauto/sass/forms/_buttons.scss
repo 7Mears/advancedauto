@@ -4,7 +4,6 @@ input[type="reset"],
 input[type="submit"] {
 	border: 1px solid;
 	border-color: $color__border-button;
-	border-radius: 5px;
 	background: rgba(0,0,0,0);
 	color: white;
 	@include font-size(0.75);

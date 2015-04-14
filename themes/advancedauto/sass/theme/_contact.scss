@@ -2,3 +2,21 @@
   background: url('./images/tirebg2.jpg');
   background-size: cover;
 }
+
+.contact-form {
+  width: 50%;
+  float: left;
+}
+
+.contact-info {
+  width: 40%;
+  float: right;
+
+  h5 {
+    margin-bottom: 15px;
+  }
+
+  li {
+    list-style-type: none;
+  }
+}
