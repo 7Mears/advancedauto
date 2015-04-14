@@ -854,6 +854,14 @@ header {
   display: none;
 }
 
+section {
+  clear: both;
+}
+
+.section-title {
+  text-align: center;
+}
+
 .hero {
   height: 100vh;
   background: url("./images/tirebg.jpg");
@@ -879,6 +887,10 @@ header {
   margin-top: -25px;
 }
 
+.hero-second-half h5 {
+  margin: 0;
+}
+
 .hero-card {
   padding: 25px;
   border-radius: 10px;
@@ -891,4 +903,22 @@ header {
 }
 .hero-card:nth-child(2) {
   margin-top: 50px;
+}
+
+.services ul {
+  list-style-type: none;
+  margin: 0;
+}
+.services li {
+  width: 50%;
+  float: left;
+  padding-right: 5%;
+  padding-bottom: 50px;
+}
+
+.products {
+  background: url("./images/tirebg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px 0;
 }
