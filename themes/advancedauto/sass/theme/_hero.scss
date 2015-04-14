@@ -1,0 +1,47 @@
+
+//hero
+.hero {
+  height: 100vh;
+  background: url('./images/tirebg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hero-first-half,
+.hero-second-half {
+  width: 50%;
+  float: left;
+  padding-top: 200px;
+}
+
+.hero-first-half {
+
+  h1 {
+    font-size:4em;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 3em;
+    font-weight: 300;
+    margin-top: -25px;
+  }
+}
+
+//second half
+.hero-card {
+  padding: 25px;
+  border-radius: 10px;
+  background: rgba(0,0,0,0.5);
+  margin-left: 30%;
+  text-align: center;
+
+  &:first-child {
+    margin-top: -50px;
+  }
+
+  &:nth-child(2) {
+    margin-top: 50px;
+  }
+}
