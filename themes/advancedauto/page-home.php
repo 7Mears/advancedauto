@@ -45,29 +45,29 @@ get_header(); ?>
     <span class="section-title">Our Services</span>
     <h3 class="section-headline">Using <strong>state of the art equipment</strong> we work on filters and fluids to changing motors, and <strong>everything in between</strong></h3>
     <ul>
-      <li>Brakes</li>
-      <li>Wheel alignment</li>
-      <li>Shock absorbers</li>
-      <li>Tune­ups</li>
-      <li>Mechanical services</li>
-      <li>Exhaust</li>
-      <li>Windshields</li>
-      <li>Interior repair</li>
-      <li>Collision repair</li>
-    </ul>
+       <li><h5>Brakes</h5> Take advantage of our free brake check. We will report our findings back to you and provide you with an estimate.</li>
+       <li><h5>Wheel alignment</h5> Misalignment causes premature tire wear and adversely affects the handling of your vehicle. If problems are found, we will explain what is wrong and how to correct it.</li>
+       <li><h5>Shock absorbers</h5> Worn out shock absorbers or struts can cause severe handling issues and premature tire wear.</li>
+       <li><h5>Tune­ups</h5> To maintain your vehicle's performance and efficiency, each vehicle has a regular scheduled service maintenance list. Sometimes it is as simple as an oil change, other times it's more complex, like a timing belt. We can handle it all.</li>
+       <li><h5>Windshields</h5> We do replacement windshields on all makes and models, both insurance and non-insurance work, as well as side glass replacement and stone bruise repair while you wait.</li>
+       <li><h5>Exhaust</h5> We can do small jobs like changing mufflers to large jobs like a custom fit exhaust on your hot rod. We have a pipe bender on site and can make your custom exhaust just the way you like it.</li>
+       <li><h5>Mechanical services</h5> From time to time, vehicles have mechanical issues. We can handle small jobs like changing alternators to larger jobs like engine changing or rebuilding. The key to good mechanical services is good technicians and proper equipment. We have both of these covered.</li>
+       <li><h5>Interior repair</h5> With a dedicated upholsterer, most interior repairs are a breeze. We can repair a torn panel or restitch torn seams in a jiffy.</li>
+       <li><h5>Collision repair</h5> Our collision repair team consists of five dedicated body technicians and three paint technicians. We also have two frame straightening mechanics, two dust­free downdraft paint booths, and a factory­trained Mercedes­qualified painter. Be sure to ask about our written lifetime warranty.</li>
+     </ul>
   </div>
+  <div class="clear"></div>
 </section>
 
 <section class="products">
   <div class="container">
     <span class="section-title">Products</span>
     <h3 class="section-headline">We work with <strong>the best</strong></h3>
-    <ul>
-      <li>Batteries: 6, 8, and 12 volt batteries</li>
-      <li>Shocks and struts: KYB is the new industry standard. Other lines available.</li>
-      <li>Mufflers: Quiet or loud depending on the customer's needs.</li>
-      <li>Tires: Michelins, Goodyear, BF Goodrich, Toyo, Cooper, Hankook, Pirelli.</li>
-    </ul>
+    <p>
+      Quickly seize client-focused niches after <strong>impactful human</strong> capital. Progressively productivate viral expertise with customized growth strategies. Rapidiously enhance vertical expertise and high-payoff metrics. Quickly cultivate vertical best practices with extensible human capital. Professionally foster efficient users with adaptive human capital.
+
+Credibly foster equity invested total linkage after multifunctional materials. Assertively cultivate strategic content for enterprise innovation. <strong>Proactively visualize functional e-business</strong> whereas professional channels. Competently monetize backward-compatible imperatives.
+    </p>
   </div>
 </section>
 

@@ -854,10 +854,6 @@ header {
   display: none;
 }
 
-section {
-  clear: both;
-}
-
 .services,
 .products,
 .contact {
@@ -925,12 +921,26 @@ section {
 .services ul {
   list-style-type: none;
   margin: 0;
+  padding: 0;
+}
+.services li {
+  width: 33.3333%;
+  float: left;
+  height: 230px;
+  padding-right: 5%;
+  font-size: 0.9em;
+}
+.services li h5 {
+  margin: 0;
 }
 
 .products {
   background: url("./images/tirebg.jpg");
   background-size: cover;
   padding: 100px 0;
+}
+.products p {
+  width: 350px;
 }
 
 .contact {
