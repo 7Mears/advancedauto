@@ -1,16 +1,11 @@
+.site-footer {
+  display: none;
+}
+
 .content-area,
 .container {
   width: 90%;
   margin: 0 auto;
-}
-
-.site-title {
-  font-size: 2em;
-
-}
-
-header {
-  display: none;
 }
 
 .services,
@@ -26,6 +21,7 @@ header {
 
 .section-headline {
   font-weight: 100;
-  border-left: 2px solid $color1;
+  border-left: 3px solid $color1;
   padding-left: 12.5px;
+  text-shadow: 2px 2px 0px black;
 }

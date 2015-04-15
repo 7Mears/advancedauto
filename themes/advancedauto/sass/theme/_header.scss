@@ -1,0 +1,17 @@
+
+//header
+
+.site-header {
+  position: absolute;
+  width: 100%;
+}
+
+.main-navigation {
+  float: right;
+  width: auto;
+  font-weight: 700;
+
+  li {
+    padding: 25px 12.5px;
+  }
+}

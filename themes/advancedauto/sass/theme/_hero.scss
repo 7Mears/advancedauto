@@ -1,53 +1,29 @@
-
-//hero
 .hero {
-  height: 100vh;
-  background: url('./images/tirebg.jpg');
+  padding: 150px 0 200px 0;
+  background: url('./images/1.jpg');
   background-size: cover;
-/*   background-attachment: fixed; */
+  background-attachment: fixed;
 }
 
-.hero-first-half,
-.hero-second-half {
-  width: 50%;
-  float: left;
-  padding-top: 200px;
-}
-
-.hero-first-half {
+.hero-slogan {
+  padding-top: 100px;
 
   h1 {
-    font-size:4em;
-    font-weight: 700;
+    font-weight: 100;
     margin: 0;
+    font-style: italic;
+    border-left: 3px solid $color1;
+    padding-left: 12.5px;
+    text-shadow: 2px 2px 0px black;
+
+    &:nth-child(2) {
+      margin-top: -30px;
+      font-size: 2.2em;
+    }
   }
 
-  h2 {
-    font-size: 3em;
-    font-weight: 300;
-    margin-top: -25px;
-  }
-}
-
-//second half
-.hero-second-half {
-  h5 {
-    margin: 0;
-  }
-}
-
-.hero-card {
-  padding: 25px;
-  border-radius: 10px;
-  background: rgba(0,0,0,0.5);
-  margin-left: 30%;
-  text-align: center;
-
-  &:first-child {
-    margin-top: -50px;
-  }
-
-  &:nth-child(2) {
-    margin-top: 50px;
+  h6 {
+    font-weight: 100;
+    text-shadow: 2px 2px 0px black;
   }
 }

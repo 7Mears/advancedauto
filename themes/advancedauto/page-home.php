@@ -17,25 +17,19 @@ get_header(); ?>
 
     <div class="hero-first-half">
       <div class="hero-slogan">
-        <h1>Advanced</h1>
-        <h2>Auto Care & Tire</h2>
-        <p>We have state of the art equipment, top of the line products, and highly trained technicians to meet your automotive needs.</p>
+        <h1><strong>Advanced</strong></h1>
+        <h1>Auto Care & Tire</h1>
+        <h6>We have <strong>state of the art equipment</strong>, top of the line products,<br /> and <strong>highly trained technicians</strong> to meet your automotive needs.</h6>
       </div>
     </div>
 
-    <div class="hero-second-half">
-      <div class="hero-card">
-        <h5>Get in touch</h5>
-        <p><i class="fa fa-phone"></i> (306) ­249-­9545<br/>
-          <i class="fa fa-map-marker"></i> 145 105th Street East<br/>
-           Saskatoon, SK S7N 1Z2</p>
-      </div>
+    <div class="hero-info">
+      <p><i class="fa fa-phone"></i> (306) ­249-­9545<br/>
+      <i class="fa fa-map-marker"></i> 145 105th Street East<br/> Saskatoon, SK S7N 1Z2</p>
 
-      <div class="hero-card">
-        <p>Our services range from changing filters and fluids to changing motors, and everything in between.</p>
-        <button>Services</button>
-      </div>
     </div>
+    <!-- <p>Our services range from changing filters and fluids to changing motors, and everything in between.</p>
+    <button>Services</button> -->
 
   </div>
 </section>
@@ -43,7 +37,7 @@ get_header(); ?>
 <section class="services">
   <div class="container">
     <span class="section-title">Our Services</span>
-    <h3 class="section-headline">Using <strong>state of the art equipment</strong> we work on filters and fluids to changing motors, and <strong>everything in between</strong></h3>
+    <h3 class="section-headline">We do <strong>everything you need</strong> to keep your vehicle in top shape, from changing filters and fluids to changing motors.</h3>
     <ul>
        <li><h5>Brakes</h5> Take advantage of our free brake check. We will report our findings back to you and provide you with an estimate.</li>
        <li><h5>Wheel alignment</h5> Misalignment causes premature tire wear and adversely affects the handling of your vehicle. If problems are found, we will explain what is wrong and how to correct it.</li>
@@ -62,7 +56,7 @@ get_header(); ?>
 <section class="products">
   <div class="container">
     <span class="section-title">Products</span>
-    <h3 class="section-headline">We work with <strong>the best</strong></h3>
+    <h3 class="section-headline">We only use <strong>the best</strong></h3>
     <p>
       Quickly seize client-focused niches after <strong>impactful human</strong> capital. Progressively productivate viral expertise with customized growth strategies. Rapidiously enhance vertical expertise and high-payoff metrics. Quickly cultivate vertical best practices with extensible human capital. Professionally foster efficient users with adaptive human capital.
 
@@ -82,7 +76,18 @@ Credibly foster equity invested total linkage after multifunctional materials. A
       <li><i class="fa fa-phone"></i> (306) ­249-­9545</li>
       <li><i class="fa fa-print"></i> (306) ­249-­9569</li>
       <li>After hours, call Chris Hopkins: [NEED NUMBER]</li>
-    </ul>
+
+      <!-- store hours -->
+      <li><h5>Hours</h5></li>
+      <li>Monday: 8:00 am - 5:00 pm</li>
+      <li>Tuesday: 8:00 am - 5:00 pm</li>
+      <li>Wednesday: 8:00 am - 5:00 pm</li>
+      <li>Thursday: 8:00 am - 5:00 pm</li>
+      <li>Friday: 8:00 am - 5:00 pm</li>
+      <li>Saturday: Closed</li>
+      <li>Sunday: Closed</li>
+  </ul>
+
     <div class="contact-form">
       <?php echo do_shortcode( '[contact-form-7 id="22" title="Contact form 1"]' ); ?>
     </div>
