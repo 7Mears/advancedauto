@@ -427,21 +427,24 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  border: 1px solid;
-  border-color: #ccc #ccc #bbb;
-  background: transparent;
-  color: white;
-  font-size: 12px;
-  font-size: 0.75rem;
+  border: 2px solid #6C6E70;
+  background: #535556;
+  color: #FFF;
   line-height: 1;
-  padding: 1em 2em;
+  padding: 0.5em 1.5em;
+  transition: 0.4s ease;
+  box-shadow: 0 15px 10px -5px rgba(31, 31, 31, 0.9);
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-size: 0.9em;
 }
 button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-  border-color: #ccc #bbb #aaa;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
+  border-color: #6C6E70;
+  background: #3a3b3c;
+  box-shadow: 0 15px 10px -15px rgba(31, 31, 31, 0.9);
 }
 button:active, button:focus,
 input[type="button"]:active,
@@ -450,8 +453,7 @@ input[type="reset"]:active,
 input[type="reset"]:focus,
 input[type="submit"]:active,
 input[type="submit"]:focus {
-  border-color: #aaa #bbb #bbb;
-  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
+  border-color: #b9bbbc;
 }
 
 input[type="text"],
@@ -460,8 +462,8 @@ input[type="url"],
 input[type="password"],
 input[type="search"],
 textarea {
-  color: #cccccc;
-  border: 1px solid #ccc;
+  color: #b3b3b3;
+  border: 2px solid #6C6E70;
   background: rgba(0, 0, 0, 0.1);
   width: 100%;
 }
@@ -471,7 +473,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 input[type="search"]:focus,
 textarea:focus {
-  color: #B7A063;
+  color: #FFF;
   border: 1px solid #B7A063;
 }
 
@@ -484,7 +486,7 @@ input[type="search"] {
 }
 
 textarea {
-  padding-left: 3px;
+  padding: 10px;
   width: 100%;
   height: 150px;
 }
@@ -851,6 +853,12 @@ object {
   width: 90%;
   margin: 0 auto;
 }
+@media screen and (min-width: 1400px) {
+  .content-area,
+  .container {
+    width: 1400px;
+  }
+}
 
 .services,
 .products,
@@ -994,7 +1002,7 @@ nav a:focus {
   }
 }
 .hero-slogan h1:nth-child(2) {
-  margin-top: -30px;
+  margin-top: -25px;
   font-size: 2.2em;
 }
 @media screen and (max-width: 500px) {
