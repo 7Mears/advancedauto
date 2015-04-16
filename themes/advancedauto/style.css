@@ -869,6 +869,11 @@ object {
   padding-left: 12.5px;
   text-shadow: 2px 2px 0px black;
 }
+@media screen and (max-width: 790px) {
+  .section-headline {
+    font-size: 1.5em;
+  }
+}
 
 .site-header {
   position: absolute;
@@ -878,10 +883,83 @@ object {
 .main-navigation {
   float: right;
   width: auto;
-  font-weight: 700;
 }
-.main-navigation li {
-  padding: 25px 12.5px;
+
+nav a {
+  position: relative;
+  float: left;
+  margin: 45px 10px;
+  outline: none;
+  color: #FFF;
+  text-decoration: none;
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
+}
+@media screen and (max-width: 500px) {
+  nav a {
+    margin: 25px 0;
+    font-size: 0.9em;
+  }
+}
+
+nav a:hover,
+nav a:focus {
+  outline: none;
+}
+
+.nav-effect a {
+  padding: 10px;
+  color: #B7A063;
+  font-weight: 700;
+  text-shadow: none;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.nav-effect a::before,
+.nav-effect a::after {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #B7A063;
+  content: '';
+  opacity: 0;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  transform: translateY(-10px);
+}
+
+.nav-effect a::before {
+  top: 0;
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  transform: translateY(-10px);
+}
+
+.nav-effect a::after {
+  bottom: 0;
+  -webkit-transform: translateY(10px);
+  -moz-transform: translateY(10px);
+  transform: translateY(10px);
+}
+
+.nav-effect a:hover,
+.nav-effect a:focus {
+  color: #FFF;
+}
+
+.nav-effect a:hover::before,
+.nav-effect a:focus::before,
+.nav-effect a:hover::after,
+.nav-effect a:focus::after {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  transform: translateY(0px);
 }
 
 .hero {
@@ -889,6 +967,14 @@ object {
   background: url("./images/1.jpg");
   background-size: cover;
   background-attachment: fixed;
+}
+@media screen and (max-width: 500px) {
+  .hero {
+    padding: 50px 0;
+  }
+}
+.hero .container {
+  position: relative;
 }
 
 .hero-slogan {
@@ -902,13 +988,44 @@ object {
   padding-left: 12.5px;
   text-shadow: 2px 2px 0px black;
 }
+@media screen and (max-width: 500px) {
+  .hero-slogan h1 {
+    font-size: 1.8em;
+  }
+}
 .hero-slogan h1:nth-child(2) {
   margin-top: -30px;
   font-size: 2.2em;
 }
+@media screen and (max-width: 500px) {
+  .hero-slogan h1:nth-child(2) {
+    font-size: 1.6em;
+    margin-top: -10px;
+  }
+}
 .hero-slogan h6 {
   font-weight: 100;
   text-shadow: 2px 2px 0px black;
+}
+
+.hero-info a {
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.sgi {
+  position: absolute;
+  right: 0;
+  bottom: -100px;
+  height: 50px;
+  opacity: 0.7;
+  margin-top: 40px;
+  margin-right: 12.5px;
+}
+@media screen and (max-width: 500px) {
+  .sgi {
+    display: none;
+  }
 }
 
 .services {
@@ -928,6 +1045,18 @@ object {
   padding-right: 6%;
   font-size: 0.9em;
 }
+@media screen and (max-width: 1200px) {
+  .services li {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 790px) {
+  .services li {
+    width: 100%;
+    height: auto;
+    padding: 25px 0;
+  }
+}
 .services li h5 {
   margin: 0 0 10px 0;
   text-shadow: 2px 2px 0px black;
@@ -942,6 +1071,36 @@ object {
 .products p {
   width: 350px;
 }
+@media screen and (max-width: 500px) {
+  .products p {
+    width: 100%;
+  }
+}
+
+.about {
+  background: url("./images/3.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px 0;
+}
+.about p {
+  width: 600px;
+  -webkit-column-count: 2;
+  /* Chrome, Safari, Opera */
+  -moz-column-count: 2;
+  /* Firefox */
+  column-count: 2;
+}
+@media screen and (max-width: 640px) {
+  .about p {
+    width: 100%;
+    -webkit-column-count: 1;
+    /* Chrome, Safari, Opera */
+    -moz-column-count: 1;
+    /* Firefox */
+    column-count: 1;
+  }
+}
 
 .contact {
   background: #2D3033;
@@ -951,10 +1110,20 @@ object {
   width: 50%;
   float: left;
 }
+@media screen and (max-width: 790px) {
+  .contact-form {
+    width: 100%;
+  }
+}
 
 .contact-info {
   width: 40%;
   float: right;
+}
+@media screen and (max-width: 790px) {
+  .contact-info {
+    width: 100%;
+  }
 }
 .contact-info h5 {
   margin-bottom: 15px;

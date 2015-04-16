@@ -15,26 +15,24 @@ get_header(); ?>
 <section class="hero">
   <div class="container">
 
-    <div class="hero-first-half">
-      <div class="hero-slogan">
-        <h1><strong>Advanced</strong></h1>
-        <h1>Auto Care & Tire</h1>
-        <h6>We have <strong>state of the art equipment</strong>, top of the line products,<br /> and <strong>highly trained technicians</strong> to meet your automotive needs.</h6>
-      </div>
+    <div class="hero-slogan">
+      <h1><strong>Advanced</strong></h1>
+      <h1>Auto Care & Tire</h1>
+      <h6>We have <strong>state of the art equipment</strong>, top of the line products,<br /> and <strong>highly trained technicians</strong> to meet your automotive needs.</h6>
     </div>
 
     <div class="hero-info">
-      <p><i class="fa fa-phone"></i> (306) ­249-­9545<br/>
-      <i class="fa fa-map-marker"></i> 145 105th Street East<br/> Saskatoon, SK S7N 1Z2</p>
-
+      <p><i class="fa fa-phone"></i> <a href="tel:306-­249-­9545">(306) ­249-­9545</a><br/>
+      <i class="fa fa-map-marker"></i> <a href="https://www.google.ca/maps/place/145+105+St+E,+Saskatoon,+SK+S7N+1Z2/@52.1320599,-106.5913336,17z/data=!3m1!4b1!4m2!3m1!1s0x5304f4064933b071:0x98697069370efa55">145 105th Street East</a><br/> Saskatoon, Saskatchewan</p>
     </div>
-    <!-- <p>Our services range from changing filters and fluids to changing motors, and everything in between.</p>
-    <button>Services</button> -->
 
+    <img class="sgi" src="http://localhost/advanced-auto/wp-content/uploads/2015/04/SGI.png" alt="SGI Accredited">
   </div>
+
+  <div class="clear"></div>
 </section>
 
-<section class="services">
+<section id="services" class="services">
   <div class="container">
     <span class="section-title">Our Services</span>
     <h3 class="section-headline">We do <strong>everything you need</strong> to keep your vehicle in top shape, from changing filters and fluids to changing motors.</h3>
@@ -53,19 +51,27 @@ get_header(); ?>
   <div class="clear"></div>
 </section>
 
-<section class="products">
+<section id="products" class="products">
   <div class="container">
     <span class="section-title">Products</span>
     <h3 class="section-headline">We only use <strong>the best</strong></h3>
     <p>
-      Quickly seize client-focused niches after <strong>impactful human</strong> capital. Progressively productivate viral expertise with customized growth strategies. Rapidiously enhance vertical expertise and high-payoff metrics. Quickly cultivate vertical best practices with extensible human capital. Professionally foster efficient users with adaptive human capital.
-
-Credibly foster equity invested total linkage after multifunctional materials. Assertively cultivate strategic content for enterprise innovation. <strong>Proactively visualize functional e-business</strong> whereas professional channels. Competently monetize backward-compatible imperatives.
+      Quickly seize client-focused niches after <strong>impactful human</strong> capital. Progressively productivate viral expertise with customized growth strategies. Rapidiously enhance vertical expertise and high-payoff metrics. Quickly cultivate vertical best practices with extensible human capital. Professionally foster efficient users with adaptive human capital. Credibly foster equity invested total linkage after multifunctional materials. Assertively cultivate strategic content for enterprise innovation. <strong>Proactively visualize functional e-business</strong> whereas professional channels. Competently monetize backward-compatible imperatives.
     </p>
   </div>
 </section>
 
-<section class="contact">
+<section id="about" class="about">
+  <div class="container">
+    <span class="section-title">About us</span>
+    <h3 class="section-headline"><strong>Objectively supply user-centric</strong> architectures whereas flexible data. With more words.</h3>
+    <p>
+      Quickly seize client-focused niches after <strong>impactful human</strong> capital. Progressively productivate viral expertise with customized growth strategies. Rapidiously enhance vertical expertise and high-payoff metrics. Quickly cultivate vertical best practices with extensible human capital. Professionally foster efficient users with adaptive human capital. Credibly foster equity invested total linkage after multifunctional materials. Assertively cultivate strategic content for enterprise innovation. <strong>Proactively visualize functional e-business</strong> whereas professional channels. Competently monetize backward-compatible imperatives.
+    </p>
+  </div>
+</section>
+
+<section id="contact" class="contact">
   <div class="container">
     <span class="section-title">Contact us</span>
     <h3 class="section-headline">Get in touch</h3>
@@ -75,7 +81,6 @@ Credibly foster equity invested total linkage after multifunctional materials. A
       <li>Saskatoon, SK S7N 1Z2</li>
       <li><i class="fa fa-phone"></i> (306) ­249-­9545</li>
       <li><i class="fa fa-print"></i> (306) ­249-­9569</li>
-      <li>After hours, call Chris Hopkins: [NEED NUMBER]</li>
 
       <!-- store hours -->
       <li><h5>Hours</h5></li>

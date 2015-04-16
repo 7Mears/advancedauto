@@ -3,6 +3,13 @@
   background: url('./images/1.jpg');
   background-size: cover;
   background-attachment: fixed;
+  @media screen and (max-width: $S) {
+    padding: 50px 0;
+  }
+
+  .container {
+    position: relative;
+  }
 }
 
 .hero-slogan {
@@ -15,15 +22,43 @@
     border-left: 3px solid $color1;
     padding-left: 12.5px;
     text-shadow: 2px 2px 0px black;
+    @media screen and (max-width: $S) {
+      font-size: 1.8em;
+    }
 
     &:nth-child(2) {
       margin-top: -30px;
       font-size: 2.2em;
+      @media screen and (max-width: $S) {
+        font-size: 1.6em;
+        margin-top: -10px;
+      }
     }
   }
 
   h6 {
     font-weight: 100;
     text-shadow: 2px 2px 0px black;
+  }
+}
+
+.hero-info {
+  a {
+    text-decoration: none;
+    font-weight: 400;
+  }
+}
+
+.sgi {
+  position: absolute;
+  right: 0;
+  bottom: -100px;
+  height: 50px;
+  opacity: 0.7;
+  margin-top: 40px;
+  margin-right: 12.5px;
+
+  @media screen and (max-width: $S) {
+    display: none;
   }
 }

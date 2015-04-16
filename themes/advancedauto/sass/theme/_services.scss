@@ -15,6 +15,15 @@
     height: 230px;
     padding-right: 6%;
     font-size: 0.9em;
+    @media screen and (max-width: $L) {
+      width: 50%;
+    }
+    
+    @media screen and (max-width: $M) {
+      width: 100%;
+      height: auto;
+      padding: 25px 0;
+    }
 
     h5 {
       margin: 0 0 10px 0;

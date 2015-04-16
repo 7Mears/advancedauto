@@ -24,4 +24,8 @@
   border-left: 3px solid $color1;
   padding-left: 12.5px;
   text-shadow: 2px 2px 0px black;
+
+  @media screen and (max-width: $M) {
+    font-size: 1.5em;
+  }
 }

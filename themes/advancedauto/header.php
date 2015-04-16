@@ -20,8 +20,12 @@
 
 <header id="masthead" class="site-header" role="banner">
 	<div class="container">
-		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-		</nav><!-- #site-navigation -->
+		<nav class="main-navigation nav-effect">
+			<a href="#services">Services</a>
+			<a href="#products">Products</a>
+			<a href="#about">About</a>
+			<a href="#contact">Contact</a>
+		</nav>
+		<!-- #site-navigation -->
 	</div>
 </header><!-- #masthead -->

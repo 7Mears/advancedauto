@@ -5,11 +5,17 @@
 .contact-form {
   width: 50%;
   float: left;
+  @media screen and (max-width: $M) {
+    width: 100%;
+  }
 }
 
 .contact-info {
   width: 40%;
   float: right;
+  @media screen and (max-width: $M) {
+    width: 100%;
+  }
 
   h5 {
     margin-bottom: 15px;

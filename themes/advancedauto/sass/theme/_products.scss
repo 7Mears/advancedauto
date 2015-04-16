@@ -8,5 +8,9 @@
 
   p {
     width: 350px;
+
+    @media screen and (max-width: $S) {
+      width: 100%;
+    }
   }
 }
