@@ -20,12 +20,16 @@
 
 <header id="masthead" class="site-header" role="banner">
 	<div class="container">
-		<nav class="main-navigation nav-effect">
+		<div id="pattern" class="pattern">
+		<a href="#menu" class="menu-link">Menu</a>
+
+		<nav id="menu" class="main-navigation nav-effect" role="navigation">
 			<a href="#services">Services</a>
 			<a href="#products">Products</a>
 			<a href="#about">About</a>
 			<a href="#contact">Contact</a>
 		</nav>
 		<!-- #site-navigation -->
+		</div>
 	</div>
 </header><!-- #masthead -->
