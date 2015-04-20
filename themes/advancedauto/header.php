@@ -17,19 +17,21 @@
 </head>
 
 <body <?php body_class(); ?>>
+	<div class="nav-wrap" id="nav-wrap">
 
-<header id="masthead" class="site-header" role="banner">
-	<div class="container">
-		<div id="pattern" class="pattern">
-		<a href="#menu" class="menu-link">Menu</a>
+		<header id="masthead" class="site-header" role="banner">
+			<div class="container">
+				<a href="#menu" class="menu-link"><i class="fa fa-bars"></i> Menu</a>
 
-		<nav id="menu" class="main-navigation nav-effect" role="navigation">
-			<a href="#services">Services</a>
-			<a href="#products">Products</a>
-			<a href="#about">About</a>
-			<a href="#contact">Contact</a>
-		</nav>
-		<!-- #site-navigation -->
-		</div>
-	</div>
-</header><!-- #masthead -->
+				<nav id="menu" class="main-navigation nav-effect" role="navigation">
+					<ul>
+						<li><a href="#services">Services</a></li>
+						<li><a href="#products">Products</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+
+				</nav>
+
+			</div><!-- #container -->
+		</header><!-- #masthead -->

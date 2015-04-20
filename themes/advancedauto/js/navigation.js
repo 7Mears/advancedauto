@@ -1,10 +1,13 @@
-$(document).ready(function() {
+jQuery(document).ready(function($) {
   $('body').addClass('js');
-  var $menu = $('#menu'),
-    $menulink = $('.menu-link');
 
-$menulink.click(function() {
-  $menulink.toggleClass('active');
-  $menu.toggleClass('active');
-  return false;
-});});
+  var $menu = $('#menu'),
+    $menulink = $('.menu-link'),
+    $wrap = $('#nav-wrap');
+
+  $menulink.click(function() {
+    $menulink.toggleClass('active');
+    $wrap.toggleClass('active');
+    return false;
+	});
+});

@@ -13,7 +13,7 @@
 		Advanced Auto Care & Tire
 	</div><!-- .site-info -->
 </footer><!-- #colophon -->
-
+</div><!-- #nav-wrap -->
 <?php wp_footer(); ?>
 
 </body>
