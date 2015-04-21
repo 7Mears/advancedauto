@@ -1,6 +1,6 @@
 .hero {
   padding: 150px 0 200px 0;
-  background: url('./images/1.jpg');
+  background: url('./images/hero.jpg');
   background-size: cover;
   background-attachment: fixed;
   @media screen and (max-width: $S) {
@@ -43,9 +43,15 @@
 }
 
 .hero-info {
+  p {
+background-color: rgba($color5 , 0.6);
+padding: 0.5em 1em;
+width: 300px;
+  }
   a {
     text-decoration: none;
     font-weight: 400;
+
   }
 }
 

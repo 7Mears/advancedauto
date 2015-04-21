@@ -56,7 +56,7 @@ get_header(); ?>
     <span class="section-title">Products</span>
     <h3 class="section-headline">We only use <strong>the best</strong></h3>
     <p>
-      Quickly seize client-focused niches after <strong>impactful human</strong> capital. Progressively productivate viral expertise with customized growth strategies. Rapidiously enhance vertical expertise and high-payoff metrics. Quickly cultivate vertical best practices with extensible human capital. Professionally foster efficient users with adaptive human capital. Credibly foster equity invested total linkage after multifunctional materials. Assertively cultivate strategic content for enterprise innovation. <strong>Proactively visualize functional e-business</strong> whereas professional channels. Competently monetize backward-compatible imperatives.
+      Advanced Auto Care and Tire offers all the automotive products you need to ensure a smooth ride for a long time, including batteries, shocks and struts, mufflers, and tires. We have <strong>batteries</strong> available in 6, 8, and 12 volts; <strong>shocks and struts</strong>, including KYB, the new industry standard; <strong>mufflers</strong>, both quiet or loud, depending on your needs; and the tops brands in <strong>tires</strong>, including Michelins, Goodyear, BF Goodrich, Toyo, Cooper, Hankook, and Pirelli.
     </p>
   </div>
 </section>
@@ -66,9 +66,11 @@ get_header(); ?>
     <span class="section-title">About us</span>
     <h3 class="section-headline"><strong>Objectively supply user-centric</strong> architectures whereas flexible data. With more words.</h3>
     <p>
-      Quickly seize client-focused niches after <strong>impactful human</strong> capital. Progressively productivate viral expertise with customized growth strategies. Rapidiously enhance vertical expertise and high-payoff metrics. Quickly cultivate vertical best practices with extensible human capital. Professionally foster efficient users with adaptive human capital. Credibly foster equity invested total linkage after multifunctional materials. Assertively cultivate strategic content for enterprise innovation. <strong>Proactively visualize functional e-business</strong> whereas professional channels. Competently monetize backward-compatible imperatives.
+      Advanced Auto Care and Tire has been serving Saskatoon and area for 10 years. This SGI-accredited mechanical shop does full collision repairs. No matter what happens, Advanced should be the first place you go. Manager Chris Hopkins and our staff do it all, from brakes to wheel alignment, tune-ups to windshield replacements, and more, using the industry’s best equipment. To get your vehicle the care and attention it needs, take it to Advanced.
     </p>
   </div>
+
+  <div class="clear"></div>
 </section>
 
 <section id="contact" class="contact">

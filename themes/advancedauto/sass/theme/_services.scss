@@ -1,5 +1,5 @@
 .services {
-  background: url('./images/4.jpg');
+  background: url('./images/services.jpg');
   background-size: cover;
   background-attachment: fixed;
 
@@ -18,7 +18,7 @@
     @media screen and (max-width: $L) {
       width: 50%;
     }
-    
+
     @media screen and (max-width: $M) {
       width: 100%;
       height: auto;

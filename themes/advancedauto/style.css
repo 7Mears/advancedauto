@@ -944,7 +944,7 @@ object {
 }
 
 .section-title {
-  background: #B7A063;
+  background: rgba(183, 160, 99, 0.6);
   padding: 12.5px 25px;
   text-transform: uppercase;
   font-weight: 400;
@@ -971,7 +971,7 @@ object {
 
 .hero {
   padding: 150px 0 200px 0;
-  background: url("./images/1.jpg");
+  background: url("./images/hero.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -1015,6 +1015,11 @@ object {
   text-shadow: 2px 2px 0px black;
 }
 
+.hero-info p {
+  background-color: rgba(45, 48, 51, 0.6);
+  padding: 0.5em 1em;
+  width: 300px;
+}
 .hero-info a {
   text-decoration: none;
   font-weight: 400;
@@ -1036,7 +1041,7 @@ object {
 }
 
 .services {
-  background: url("./images/4.jpg");
+  background: url("./images/services.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -1070,13 +1075,15 @@ object {
 }
 
 .products {
-  background: url("./images/2blur.jpg");
+  background: url("./images/products.jpg");
   background-size: cover;
   background-attachment: fixed;
   padding: 100px 0;
 }
 .products p {
   width: 350px;
+  background-color: rgba(45, 48, 51, 0.8);
+  padding: 1.5em;
 }
 @media screen and (max-width: 500px) {
   .products p {
@@ -1085,27 +1092,21 @@ object {
 }
 
 .about {
-  background: url("./images/3.jpg");
+  background: url("./images/about.jpg");
   background-size: cover;
   background-attachment: fixed;
   padding: 100px 0;
 }
 .about p {
-  width: 600px;
-  -webkit-column-count: 2;
-  /* Chrome, Safari, Opera */
-  -moz-column-count: 2;
-  /* Firefox */
-  column-count: 2;
+  width: 350px;
+  float: right;
+  text-align: right;
+  background-color: rgba(45, 48, 51, 0.8);
+  padding: 1.5em;
 }
 @media screen and (max-width: 640px) {
   .about p {
     width: 100%;
-    -webkit-column-count: 1;
-    /* Chrome, Safari, Opera */
-    -moz-column-count: 1;
-    /* Firefox */
-    column-count: 1;
   }
 }
 

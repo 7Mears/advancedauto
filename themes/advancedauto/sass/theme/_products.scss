@@ -1,13 +1,15 @@
 
 //products
 .products {
-  background: url('./images/2blur.jpg');
+  background: url('./images/products.jpg');
   background-size: cover;
   background-attachment: fixed;
   padding: 100px 0;
 
   p {
     width: 350px;
+    background-color: rgba($color5 , 0.8);
+    padding: 1.5em;
 
     @media screen and (max-width: $S) {
       width: 100%;
