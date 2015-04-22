@@ -1,10 +1,13 @@
 
 //products
 .products {
-  background: url('./images/products.jpg');
+  background: url('./images/products.jpg') no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   padding: 100px 0;
+  @media screen and (max-device-width: 1024px) {
+    background-attachment: scroll;
+  }
 
   p {
     width: 350px;

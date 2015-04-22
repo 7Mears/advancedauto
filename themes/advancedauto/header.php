@@ -21,7 +21,7 @@
 
 		<header id="masthead" class="site-header" role="banner">
 			<div class="container">
-				<a href="#menu" class="menu-link"><i class="fa fa-bars"></i> Menu</a>
+				<a href="#" class="menu-link"><i class="fa fa-bars"></i></a>
 
 				<nav id="menu" class="main-navigation nav-effect" role="navigation">
 					<ul>

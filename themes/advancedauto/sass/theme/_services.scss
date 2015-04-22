@@ -1,7 +1,10 @@
 .services {
-  background: url('./images/services.jpg');
+  background: url('./images/services.jpg') no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
+  @media screen and (max-device-width: 1024px) {
+    background-attachment: scroll;
+  }
 
   ul {
     list-style-type: none;
