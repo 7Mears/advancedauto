@@ -45,6 +45,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*--------------------------------------------------------------
 # Modules
 --------------------------------------------------------------*/
+/* @import "bourbon/bourbon"; */
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
@@ -734,19 +735,18 @@ nav[role=navigation] ul {
 /*--------------------------------------------------------------
 # Clearings
 --------------------------------------------------------------*/
-.clear:before::after,
-.clear:after::after,
-.entry-content:before::after,
-.entry-content:after::after,
-.comment-content:before::after,
-.comment-content:after::after,
-.site-header:before::after,
-.site-header:after::after,
-.site-content:before::after,
-.site-content:after::after,
-.site-footer:before::after,
-.site-footer:after::after {
-  clear: both;
+.clear:before,
+.clear:after,
+.entry-content:before,
+.entry-content:after,
+.comment-content:before,
+.comment-content:after,
+.site-header:before,
+.site-header:after,
+.site-content:before,
+.site-content:after,
+.site-footer:before,
+.site-footer:after {
   content: "";
   display: table;
 }
@@ -984,44 +984,11 @@ body,
   z-index: 2;
 }
 
-html, body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-body {
-  overflow: auto;
-  -webkit-perspective: 1px;
-  -moz-perspective: 1px;
-  perspective: 1px;
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  -ms-transform-style: preserve-3d;
-  -o-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-}
-body, body * {
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  -ms-transform-style: preserve-3d;
-  -o-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-}
-
 .hero {
   padding: 3em 0;
   background: url("./images/hero.jpg") no-repeat center center;
   background-size: cover;
   height: 90%;
-  -webkit-transform: translateZ(-0.4px) scale(1.4);
-  -moz-transform: translateZ(-0.4px) scale(1.4);
-  -ms-transform: translateZ(-0.4px) scale(1.4);
-  -o-transform: translateZ(-0.4px) scale(1.4);
-  transform: translateZ(-0.4px) scale(1.4);
-  z-index: -400;
 }
 @media screen and (max-width: 790px) {
   .hero {
@@ -1103,12 +1070,6 @@ body, body * {
 .services {
   background: url("./images/services.jpg") no-repeat center center;
   background-size: cover;
-  background-attachment: fixed;
-}
-@media screen and (max-device-width: 1024px) {
-  .services {
-    background-attachment: scroll;
-  }
 }
 .services ul {
   list-style-type: none;
@@ -1142,13 +1103,7 @@ body, body * {
 .products {
   background: url("./images/products.jpg") no-repeat center center;
   background-size: cover;
-  background-attachment: fixed;
   padding: 100px 0;
-}
-@media screen and (max-device-width: 1024px) {
-  .products {
-    background-attachment: scroll;
-  }
 }
 .products p {
   width: 350px;
@@ -1164,13 +1119,7 @@ body, body * {
 .about {
   background: url("./images/about.jpg") no-repeat center center;
   background-size: cover;
-  background-attachment: fixed;
   padding: 100px 0;
-}
-@media screen and (max-device-width: 1024px) {
-  .about {
-    background-attachment: scroll;
-  }
 }
 .about p {
   width: 350px;

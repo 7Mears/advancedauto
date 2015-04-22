@@ -1,12 +1,8 @@
-@include parallax-init;
-
 .hero {
   padding: 3em 0;
   background: url('./images/hero.jpg') no-repeat center center;
   background-size: cover;
-
   height: 90%;
-  @include parallax(-.4);
 
   @media screen and (max-width: $M) {
     padding-top: 5em;
