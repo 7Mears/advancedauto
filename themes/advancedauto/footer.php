@@ -13,7 +13,7 @@
 		Website by <a href="http://www.vireoproductions.com">Vireo Productions</a>
 	</div><!-- .site-info -->
 </footer><!-- #colophon -->
-</div><!-- #nav-wrap -->
+
 <?php wp_footer(); ?>
 
 </body>

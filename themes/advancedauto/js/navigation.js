@@ -1,16 +1,14 @@
 jQuery(document).ready(function($) {
   //menu
   $('body').addClass('js');
-
   var $menu = $('#menu'),
-    $menulink = $('.menu-link'),
-    $wrap = $('#nav-wrap');
+    $menulink = $('.menu-link');
 
   $menulink.click(function() {
     $menulink.toggleClass('active');
-    $wrap.toggleClass('active');
+    $menu.toggleClass('active');
     return false;
-	});
+  });
 
   //smooth scroll to anchor
   $('a[href*=#]:not([href=#])').click(function() {

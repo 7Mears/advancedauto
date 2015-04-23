@@ -521,18 +521,10 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
-.nav-wrap {
-  position: relative;
-}
-
-.nav-wrap.active {
-  left: 14em;
-}
-
 a.menu-link {
   background: rgba(45, 48, 51, 0.8);
-  position: fixed;
   display: block;
+  width: 50px;
   padding: 0.1em 0.6em;
   margin-top: 0.5em;
   text-decoration: none;
@@ -541,43 +533,51 @@ a.menu-link {
   font-size: 1.4em;
 }
 
-nav[role=navigation] {
-  clear: both;
-}
-nav[role=navigation] ul {
-  margin: 0;
-  padding: 0;
-}
+@media screen and (max-width: 840px) {
+  nav[role=navigation] {
+    clear: both;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
 
-nav[role=navigation] li a {
-  display: block;
-}
+  .js nav[role=navigation] {
+    overflow: hidden;
+    max-height: 0;
+  }
 
-.js nav[role=navigation] {
-  width: 14em;
-  height: 100%;
-  position: absolute;
-  top: 1em;
-  left: -14em;
-}
+  nav[role=navigation].active {
+    max-height: 15em;
+  }
 
+  nav[role=navigation] ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: #2D3033;
+  }
+
+  nav[role=navigation] li a {
+    display: block;
+    padding: 0.8em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+}
 @media screen and (min-width: 840px) {
   a.menu-link {
     display: none;
   }
 
   .js nav[role=navigation] {
-    max-width: none;
-    position: static;
-    width: auto;
-  }
-
-  .nav-wrap.active {
-    left: 0;
+    max-height: none;
   }
 
   nav[role=navigation] ul {
-    margin: 0;
+    margin: 0 0 0 -0.25em;
     border: 0;
   }
 
@@ -663,25 +663,6 @@ nav[role=navigation] li a {
     -webkit-transform: translateY(0px);
     -moz-transform: translateY(0px);
     transform: translateY(0px);
-  }
-}
-@media screen and (max-width: 840px) {
-  nav ul {
-    position: fixed;
-    display: block;
-  }
-  nav li {
-    display: block;
-    width: 100%;
-    margin-bottom: 1em;
-  }
-  nav a {
-    margin: 5px 0;
-    padding: 0 1em;
-    width: 100%;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 700;
   }
 }
 /*--------------------------------------------------------------
@@ -935,8 +916,7 @@ object {
 # Theme
 --------------------------------------------------------------*/
 html,
-body,
-.nav-wrap {
+body {
   height: 100%;
 }
 
