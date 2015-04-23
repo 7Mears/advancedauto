@@ -526,7 +526,7 @@ a:hover, a:active {
 }
 
 .nav-wrap.active {
-  left: 12em;
+  left: 14em;
 }
 
 a.menu-link {
@@ -543,21 +543,26 @@ a.menu-link {
 
 nav[role=navigation] {
   clear: both;
+  overflow: hidden;
 }
 nav[role=navigation] ul {
   margin: 0;
   padding: 0;
 }
 
+nav[role=navigation] li a {
+  display: block;
+}
+
 .js nav[role=navigation] {
-  width: 12em;
+  width: 14em;
   height: 100%;
   position: absolute;
   top: 1em;
-  left: -12em;
+  left: -14em;
 }
 
-@media screen and (min-width: 790px) {
+@media screen and (min-width: 840px) {
   a.menu-link {
     display: none;
   }
@@ -661,9 +666,10 @@ nav[role=navigation] ul {
     transform: translateY(0px);
   }
 }
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 840px) {
   nav ul {
     position: fixed;
+    display: block;
   }
   nav li {
     display: block;
@@ -672,11 +678,11 @@ nav[role=navigation] ul {
   }
   nav a {
     margin: 5px 0;
+    padding: 0 1em;
     width: 100%;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
-    padding: 1em;
   }
 }
 /*--------------------------------------------------------------
@@ -972,7 +978,7 @@ body,
   padding-left: 12.5px;
   text-shadow: 2px 2px 0px black;
 }
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 840px) {
   .section-headline {
     font-size: 1.5em;
   }
@@ -990,7 +996,7 @@ body,
   background-size: cover;
   height: 90%;
 }
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 840px) {
   .hero {
     padding-top: 5em;
     height: auto;
@@ -1011,7 +1017,7 @@ body,
   font-style: italic;
   text-shadow: 2px 2px 0px black;
 }
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 840px) {
   .hero-title h1 {
     font-size: 1.8em;
   }
@@ -1021,7 +1027,7 @@ body,
   margin-top: -25px;
   font-size: 2.2em;
 }
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 840px) {
   .hero-title h2 {
     font-size: 1.6em;
     margin-top: -15px;
@@ -1033,7 +1039,7 @@ body,
   text-shadow: 2px 2px 0px black;
   width: 40%;
 }
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 840px) {
   .hero-slogan {
     width: 100%;
   }
@@ -1088,7 +1094,7 @@ body,
     width: 50%;
   }
 }
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 840px) {
   .services li {
     width: 100%;
     height: auto;
@@ -1117,7 +1123,7 @@ body,
 }
 
 .about {
-  background: url("./images/about.jpg") no-repeat center center;
+  background: url("./images/about.jpg") no-repeat top left;
   background-size: cover;
   padding: 100px 0;
 }
@@ -1137,12 +1143,15 @@ body,
 .contact {
   background: #2D3033;
 }
+.contact ul {
+  padding: 0;
+}
 
 .contact-form {
   width: 50%;
   float: left;
 }
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 840px) {
   .contact-form {
     width: 100%;
   }
@@ -1152,7 +1161,7 @@ body,
   width: 40%;
   float: right;
 }
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 840px) {
   .contact-info {
     width: 100%;
   }

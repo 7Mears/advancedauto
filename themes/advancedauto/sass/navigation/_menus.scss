@@ -5,7 +5,7 @@
   position: relative;
 }
 .nav-wrap.active {
-  left: 12em;
+  left: 14em;
 }
 a.menu-link {
     background: rgba($color5, 0.8);
@@ -21,6 +21,7 @@ a.menu-link {
 
 nav[role=navigation] {
   clear: both;
+  overflow: hidden;
 
   ul {
     margin: 0;
@@ -29,14 +30,17 @@ nav[role=navigation] {
 
 }
 
+nav[role=navigation] li a {
+  display: block;
+}
+
 .js nav[role=navigation] {
-  width: 12em;
+  width: 14em;
   height: 100%;
   position: absolute;
   top: 1em;
-  left: -12em;
+  left: -14em;
 }
-
 
 @media screen and (min-width: $M) {
   a.menu-link {
@@ -154,6 +158,7 @@ nav[role=navigation] {
 
     ul {
       position: fixed;
+      display: block;
     }
 
     li {
@@ -164,11 +169,12 @@ nav[role=navigation] {
 
     a {
       margin: 5px 0;
+      padding: 0 1em;
       width: 100%;
       text-decoration: none;
       text-transform: uppercase;
       font-weight: 700;
-      padding: 1em;
+
     }
   }
 
