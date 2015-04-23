@@ -543,7 +543,6 @@ a.menu-link {
 
 nav[role=navigation] {
   clear: both;
-  overflow: hidden;
 }
 nav[role=navigation] ul {
   margin: 0;
@@ -941,10 +940,6 @@ body,
   height: 100%;
 }
 
-.site-footer {
-  display: none;
-}
-
 .content-area,
 .container {
   width: 90%;
@@ -958,13 +953,16 @@ body,
 }
 
 .services,
-.products,
-.contact {
+.products {
   padding: 100px 0;
 }
 
+.contact {
+  padding: 100px 0 50px 0;
+}
+
 .section-title {
-  background: rgba(183, 160, 99, 0.6);
+  background: #B7A063;
   padding: 12.5px 25px;
   text-transform: uppercase;
   font-weight: 400;
@@ -982,6 +980,14 @@ body,
   .section-headline {
     font-size: 1.5em;
   }
+}
+
+.site-footer {
+  font-size: 0.8em;
+  color: #6C6E70;
+}
+.site-footer a {
+  text-decoration: none;
 }
 
 .site-header {
@@ -1123,7 +1129,7 @@ body,
 }
 
 .about {
-  background: url("./images/about.jpg") no-repeat top left;
+  background: url("./images/about.jpg") no-repeat center left;
   background-size: cover;
   padding: 100px 0;
 }

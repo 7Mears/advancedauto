@@ -10,7 +10,7 @@
 
 <footer id="colophon" class="site-footer" role="contentinfo">
 	<div class="site-info container">
-		Advanced Auto Care & Tire
+		Website by <a href="http://www.vireoproductions.com">Vireo Productions</a>
 	</div><!-- .site-info -->
 </footer><!-- #colophon -->
 </div><!-- #nav-wrap -->

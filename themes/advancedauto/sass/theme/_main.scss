@@ -5,9 +5,6 @@ body,
   height: 100%;
   }
 
-.site-footer {
-  display: none;
-}
 
 .content-area,
 .container {
@@ -20,14 +17,16 @@ body,
 }
 
 .services,
-.products,
-.contact {
+.products {
   padding: 100px 0;
+}
+.contact {
+  padding: 100px 0 50px 0;
 }
 
 
 .section-title {
-  background: rgba($color1 , 0.6);
+  background: $color1;
   padding: 12.5px 25px;
   text-transform: uppercase;
   font-weight: 400;
@@ -43,5 +42,14 @@ body,
 
   @media screen and (max-width: $M) {
     font-size: 1.5em;
+  }
+}
+
+.site-footer {
+  font-size: 0.8em;
+  color: $color4;
+
+  a {
+    text-decoration: none;
   }
 }
