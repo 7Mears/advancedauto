@@ -94,7 +94,7 @@ booths, and a factory­trained Mercedes­qualified painter. Ask about our writte
       <span class="section-title">About us</span>
 
       <h3 class="section-headline"><strong>Conveniently located in Sutherland</strong>, Advanced Auto Care & Tire's fully qualified technicians offer timely, competitive, and accurate work.</h3>
-      <p>We have been serving Saskatoon and area for 10 years. As an SGI-accredited mechanical shop, we do full collision repairs. No matter what happens, Advanced should be the first place you go. Manager Chris Hopkins and our staff do it all, from brakes to wheel alignment, tune-ups to windshield replacements, and more, using the industry’s best equipment. To get your vehicle the care and attention it needs, take it to Advanced.</p>
+      <p>We have been serving Saskatoon and area for 10 years. As an SGI-accredited mechanical shop, no matter what happens, Advanced Auto Care & Tire should be the first place you go. Manager Chris Hopkins and our staff do it all, from brakes to wheel alignment, tune-ups to windshield replacements, and more, using the industry’s best equipment. To get your vehicle the care and attention it needs, take it to Advanced Auto Care & Tire.</p>
     </div>
 
     <div class="clear"></div>
