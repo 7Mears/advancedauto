@@ -181,7 +181,7 @@ function current_to_active($text){
 add_filter ('wp_nav_menu','current_to_active');
 
 
-add_action( 'after_setup_theme', 'advanceauto_setup' );
+add_action( 'after_setup_theme', 'advancedauto_setup' );
 
 // Remove meta links at header
 remove_action( 'wp_head', 'wp_generator' ) ;
