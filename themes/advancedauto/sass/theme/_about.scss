@@ -3,16 +3,23 @@
 .about {
   background: url('./images/about.jpg') no-repeat center left;
   background-size: cover;
-  padding: 100px 0;
+  padding: 100px 0 50px 0;
 
   p {
-    width: 350px;
+    margin-top: 400px;
+    margin-bottom: 0;
     float: right;
-    text-align: right;
+    width: 700px;
     background-color: rgba($color5 , 0.8);
     padding: 1.5em;
 
-    @media screen and (max-width: 640px) {
+    @media screen and (max-width: 1340px) {
+    margin-top: 200px;
+      width: 100%;
+    }
+
+    @media screen and (max-width: $M) {
+      margin-top: 0;
       width: 100%;
     }
   }

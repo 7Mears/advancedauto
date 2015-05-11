@@ -1008,6 +1008,12 @@ body {
     font-size: 1.8em;
   }
 }
+.hero-title h1 span {
+  font-weight: 100;
+  margin-top: -20px;
+  font-size: 0.9em;
+  display: block;
+}
 .hero-title h2 {
   font-weight: 100;
   margin-top: -25px;
@@ -1111,17 +1117,25 @@ body {
 .about {
   background: url("./images/about.jpg") no-repeat center left;
   background-size: cover;
-  padding: 100px 0;
+  padding: 100px 0 50px 0;
 }
 .about p {
-  width: 350px;
+  margin-top: 400px;
+  margin-bottom: 0;
   float: right;
-  text-align: right;
+  width: 700px;
   background-color: rgba(45, 48, 51, 0.8);
   padding: 1.5em;
 }
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1340px) {
   .about p {
+    margin-top: 200px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 840px) {
+  .about p {
+    margin-top: 0;
     width: 100%;
   }
 }

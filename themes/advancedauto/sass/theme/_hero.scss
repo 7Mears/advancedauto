@@ -28,6 +28,13 @@
     @media screen and (max-width: $M) {
       font-size: 1.8em;
     }
+
+    span {
+      font-weight: 100;
+      margin-top: -20px;
+      font-size: 0.9em;
+      display: block;
+    }
   }
 
   h2 {

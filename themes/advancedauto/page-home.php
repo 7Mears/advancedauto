@@ -10,8 +10,7 @@ get_header(); ?>
     <div class="container">
 
       <div class="hero-title">
-        <h1>Advanced</h1>
-        <h2>Auto Care & Tire</h2>
+        <h1>Advanced <span>Auto Care & Tire</span></h1>
       </div>
 
       <h6 class="hero-slogan">We have <strong>state of the art equipment</strong>, top of the line products, and <strong>highly trained technicians</strong> to meet your automotive needs.</h6>
